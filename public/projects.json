@@ -1,0 +1,21 @@
+[
+  {
+    "name": "project1",
+    "live": "<https://app.herokuapp.com/whatever>",
+    "git": "<http://www.github.com/username/reponame>",
+    "image": "<http://www.imgur.com/pictureofproject.png>"
+  },
+  {
+    "name": "project2",
+    "live": "<https://app.netlify.app/whatever>",
+    "git": "<http://www.github.com/username/reponame>",
+    "image": "<http://www.imgur.com/pictureofproject.png>"
+  },
+  {
+    "name": "project3",
+    "live": "<https://app.netlify.app/whatever>",
+    "git": "<http://www.github.com/username/reponame>",
+    "image": "<http://www.imgur.com/pictureofproject.png>"
+
+  }
+]
