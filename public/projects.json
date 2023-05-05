@@ -1,21 +1,21 @@
 [
   {
-    "name": "project1",
-    "live": "<https://app.herokuapp.com/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
+    "name": "Puppy Puzzle",
+    "live": "https://nprati01.github.io/meme-ory_game_Project-1/",
+    "git": "https://github.com/nprati01/meme-ory_game_Project-1",
+    "image": "./assets/project1.png"
   },
   {
-    "name": "project2",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
+    "name": "SEI Pets Alive",
+    "live": "https://seipetsalive.herokuapp.com/",
+    "git": "https://github.com/Adamtpacz/sei-pets-alive",
+    "image": "./assets/project2.png"
   },
   {
-    "name": "project3",
-    "live": "<https://app.netlify.app/whatever>",
-    "git": "<http://www.github.com/username/reponame>",
-    "image": "<http://www.imgur.com/pictureofproject.png>"
+    "name": "Festival Ace",
+    "live": "https://festival-ace.herokuapp.com/",
+    "git": "https://github.com/nprati01/P3_Festival_Ace",
+    "image": "./assets/project3.png"
 
   }
 ]

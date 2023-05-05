@@ -1,6 +1,6 @@
 {
-    "name": "Nik Prati",
+    "name": "Nicole Prati",
     "email": "nicole.e.prati@gmail.com",
-    "headshot": "<http://www.imgur.com/pictureofproject.png>",
-    "bio": "Bob Smith graduated from General Assembly in 2017. Afterwords, he went to work for XYZ Technologies where he maintained a full-stack application using Meteor and Ember. He also recently started learning Prolog, cause why not waste time."
+    "headshot": "./assets/profile.png",
+    "bio": "I am an innovative full stack developer with a passion for problem solving and learning. Bringing varied experiences from customer service, business development, and IT-recruitment, I’ve honed my skill sets in adaptability and critical thinking. Moving forward, I am committed to further enhancing the quality of code and design to generate success where I go."
   }
