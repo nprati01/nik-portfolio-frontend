@@ -1,12 +1,13 @@
 function Home(props) {
     return(
-    <main className="Container">
+    <main className="Home-container">
 
       <section className="Home-section">
-        <h1 className="Home-title">Hello World!</h1>
+
         <div className="Home-card">
-          <h1>Hi Im Nik</h1>
-          <p> ive been working on the CSS for my home page for the last four hours and if im being honest im ready to go play in traffic! Its unlikely that Ill get a job doing this but here my porfolio of unfinished projects that are broken </p>
+          <h1>Hi Im Nik!</h1>
+          <p>I am an innovative full stack developer with a passion for problem solving and learning.</p>
+
         </div>
 
 
