@@ -32,11 +32,11 @@ function About(props) {
       <h3>{about.email}</h3>
       <p className="about-bio">{about.bio}</p>
       </div>
-        <div className="profile-buttons">
+        {/* <div className="profile-buttons">
           <button><a href="https://docs.google.com/document/d/1ZRlzPaXaeWZFsrkhQtBlbRcawxs1XptdA4_Nu2jG_oo/edit?usp=sharing"></a>View CV</button>
           <button><a href="https://www.linkedin.com/in/nprati/"></a>LinkedIn</button>
           <button><a href="https://github.com/nprati01"></a>GitHub</button>
-        </div>
+        </div> */}
     </div>
   );
 
