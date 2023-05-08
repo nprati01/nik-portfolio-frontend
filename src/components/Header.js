@@ -8,7 +8,7 @@ function Header(props) {
 
     return (
         <ul className="Nav">
-        <img src="../public/assets/navlogo.png" alt="logo"/>
+        {/* <img src="../public/assets/navlogo.png" alt="logo"/> */}
 
 
 
