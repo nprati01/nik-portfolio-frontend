@@ -17,6 +17,7 @@
 #nav-bg{
   background:linear-gradient(to right,#0369a1, rgba(255, 255, 255, 0));
   color: white;
+  align-content: flex-end;
 
 
 }

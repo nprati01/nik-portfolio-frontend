@@ -25,11 +25,27 @@ function Nav(props) {
             <div>
               <img className="h-16 w-18" src={navLogow} alt="logo"/>
             </div>
-            <ul className="hidden md:flex">
-              <li><Link to="#home" smooth={true} duration={500}> HOME </Link></li>
-              <li><Link to="#about" smooth={true} duration={500}> ABOUT </Link></li>
-              <li><Link to="#projects" smooth={true} duration={200}> PROJECTS </Link></li>
-              <li><Link to="#skills" smooth={true} duration={500}> SKILLS </Link></li>
+            <ul className="hidden md:flex  flex justify-between items-center">
+              <li className='px-4'>
+                <Link to="#home" smooth={true} duration={500}>
+                  HOME
+                </Link>
+              </li>
+              <li className='px-4'>
+                <Link to="#about" smooth={true} duration={500}>
+                ABOUT
+                </Link>
+              </li>
+              <li className='px-4'>
+                <Link to="#projects" smooth={true} duration={200}>
+                PROJECTS
+                </Link>
+              </li>
+              <li className='px-4'>
+                <Link to="#skills" smooth={true} duration={500}>
+                SKILLS
+              </Link>
+              </li>
             </ul>
             {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>
@@ -67,7 +83,7 @@ function Nav(props) {
                 </Link>
               </li> */}
             </ul>
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+            {/* <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
               <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                   <a
@@ -101,7 +117,7 @@ function Nav(props) {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
         </div>
 
 
