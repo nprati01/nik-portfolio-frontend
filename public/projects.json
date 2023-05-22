@@ -1,17 +1,20 @@
 [
   {
+    "id":0,
     "name": "Puppy Puzzle",
     "live": "https://nprati01.github.io/meme-ory_game_Project-1/",
     "git": "https://github.com/nprati01/meme-ory_game_Project-1",
     "image": "./assets/project1.png"
   },
   {
+    "id": 1,
     "name": "SEI Pets Alive",
     "live": "https://seipetsalive.herokuapp.com/",
     "git": "https://github.com/Adamtpacz/sei-pets-alive",
     "image": "./assets/project2.png"
   },
   {
+    "id":2,
     "name": "Festival Ace",
     "live": "https://festival-ace.herokuapp.com/",
     "git": "https://github.com/nprati01/P3_Festival_Ace",

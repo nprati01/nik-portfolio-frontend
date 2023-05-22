@@ -1,22 +1,27 @@
 
 import './App.css';
 // IMPORT COMPONENTS
-import Header from "../Header";
-import Main from "../Main"
+import Nav from "../Nav";
+import About from "../About"
+import Projects from "../Projects"
+import Home from "../Home"
+import Skills from "../Skills"
 
 
-
-// IMPORT PAGES
 
 
 function App() {
-  // URL should have YOUR HEROKU URL for your backend (will build later), make sure you include the trailing slash
-
+  const URL = "http://localhost:4000/";
 
   return (
+
     <div className="App">
-      <Header />
-      <Main />
+      <Nav />
+      <Home />
+      <About URL={URL}/>
+      <Projects URL={URL} />
+      <Skills />
+
 
 
 
