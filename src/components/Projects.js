@@ -26,19 +26,41 @@ function Projects(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return projects.map((project) => (
-      <div key={projects.id} className="project-container" id="projects">
+    return(
+      <div className="w-full md:h-screen text-stone-100" id="projects">
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+          <div className="pb-8">
+            <p className="text-4xl font-bold inline border-b-4 text-stone-100 border-cyan-500">Check out some of my recent projects  </p>
+          </div>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {projects.map((project) =>(
+              <div key={project.id} style={{backgroundImage: `url(${project.image})`}} className="shadow-lg shadow-[#040c16] bg-cover group container rounded-md flex justify-center text-center items-center mx-auto content-div">
+                <div className="opacity-0 group-hover:opacity-100 ">
+                  <span className="text-2xl font bold text-black tracking-wider">{project.name}</span>
+                  <div className="pt-8 text-center">
+                    <a href={project.git}>
+                      <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Code</button>
+                    </a>
+                    <a href={project.live}>
+                      <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg">Live</button>
+                    </a>
 
-        <h1>{project.name}</h1>
-        <img className="project-image" src={project.image} alt={project.name}/>
-        <a href={project.git}>
-          <button>Github</button>
-        </a>
-        <a href={project.live}>
-          <button>live site</button>
-        </a>
+                  </div>
+                </div>
+              </div>
+
+            ))}
+
+
+          </div>
+
+        </div>
+
+
       </div>
-    ));
+    );
   };
 
   return projects ? loaded() : <h1>Loading...</h1>;

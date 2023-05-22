@@ -33,14 +33,14 @@ function About(props) {
           <img className="h-48 w-full object-fill md:h-full md:w-full" src={about.headshot} alt=""/>
         </div>
         <div className='p-8'>
-          <h2 className='uppercase tracking-wide text-3xl text-purple-500 font-semibold'>{about.name}</h2>
+          <h2 className='uppercase tracking-wide text-3xl text-[#00A3B2] font-semibold'>{about.name}</h2>
           <h3 className='block mt-1 text-lg leading-tight font-medium text-black hover:underline'>{about.email}</h3>
           <p className="mt-2 text-slate-500">{about.bio}</p>
           <div className="mt-8">
-          <button className="bg-purple-300 hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><FaDownload style={{color: "#fafafa",}} />
+          <button className="bg-[#00A3B2] hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><FaDownload style={{color: "#fafafa",}} />
           <a href="https://docs.google.com/document/d/1ZRlzPaXaeWZFsrkhQtBlbRcawxs1XptdA4_Nu2jG_oo/edit?usp=sharing"> CV </a></button>
-          <button className="bg-purple-300 hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><FaLinkedin style={{color: "#fafafa",}} /><a href="https://www.linkedin.com/in/nprati/">LinkedIn</a></button>
-          <button className="bg-purple-300 hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><a href="https://github.com/nprati01"><FaGithub style={{color: "#fafafa", size: "lg",}} /></a>GitHub</button>
+          <button className="bg-[#00A3B2] hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><FaLinkedin style={{color: "#fafafa",}} /><a href="https://www.linkedin.com/in/nprati/">LinkedIn</a></button>
+          <button className="bg-[#00A3B2] hover:bg-purple-400 text-white font-bold py-2 px-4 mx-2 rounded inline-flex items-center"><a href="https://github.com/nprati01"><FaGithub style={{color: "#fafafa", size: "lg",}} /></a>GitHub</button>
           </div>
         </div>
       </div>

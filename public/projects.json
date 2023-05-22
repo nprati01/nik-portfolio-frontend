@@ -20,5 +20,13 @@
     "git": "https://github.com/nprati01/P3_Festival_Ace",
     "image": "./assets/project3.png"
 
+  },
+  {
+    "id":3,
+    "name": "My Dev Blog",
+    "live": "https://nik-dev-blog.netlify.app/",
+    "git": "https://github.com/nprati01/react_blog_Frontend",
+    "image": "./assets/project4.png"
+
   }
 ]
