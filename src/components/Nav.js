@@ -4,11 +4,11 @@ import React, { useState } from 'react';
 import {
   FaBars,
   FaTimes,
-  FaGithub,
-  FaLinkedin,
+  // FaGithub,
+  // FaLinkedin,
 } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+// import { HiOutlineMail } from 'react-icons/hi';
+// import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 
 
