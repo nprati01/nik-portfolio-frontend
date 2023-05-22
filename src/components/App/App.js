@@ -10,6 +10,7 @@ import Skills from "../Skills"
 
 
 
+
 function App() {
   const URL = "http://localhost:4000/";
 
@@ -21,6 +22,7 @@ function App() {
       <About URL={URL}/>
       <Projects URL={URL} />
       <Skills />
+
 
 
 

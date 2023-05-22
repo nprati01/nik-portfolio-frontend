@@ -21,15 +21,15 @@ function Nav(props) {
 
 
     return (
-          <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-sky-700 to-transparent text-slate-50">
+          <div className="fixed w-full h-[80px] flex justify-between items-center px-4 mb-8" id='nav-bg'>
             <div>
               <img className="h-16 w-18" src={navLogow} alt="logo"/>
             </div>
             <ul className="hidden md:flex">
-              <li><Link to="#home" smooth={true} duration={500}>HOME</Link></li>
-              <li><Link to="#about" smooth={true} duration={500}>ABOUT</Link></li>
-              <li><Link to="#projects" smooth={true} duration={200}>PROJECTS</Link></li>
-              <li><Link to="#skills" smooth={true} duration={500}>SKILLS</Link></li>
+              <li><Link to="#home" smooth={true} duration={500}> HOME </Link></li>
+              <li><Link to="#about" smooth={true} duration={500}> ABOUT </Link></li>
+              <li><Link to="#projects" smooth={true} duration={200}> PROJECTS </Link></li>
+              <li><Link to="#skills" smooth={true} duration={500}> SKILLS </Link></li>
             </ul>
             {/* Hamburger */}
             <div onClick={handleClick} className='md:hidden z-10'>
