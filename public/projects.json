@@ -9,7 +9,7 @@
   {
     "id": 1,
     "name": "SEI Pets Alive",
-    "live": "https://seipetsalive.herokuapp.com/",
+    "live": "https://sei-pets-alive.herokuapp.com/dogs",
     "git": "https://github.com/Adamtpacz/sei-pets-alive",
     "image": "./assets/project2.png"
   },

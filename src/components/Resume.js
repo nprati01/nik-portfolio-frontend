@@ -5,38 +5,34 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.6.172/pdf.min.js`;
 
 
 const resumeLink =
-  "https://raw.githubusercontent.com/github-name/pdf-renderer/main/src/assets/resume.pdf";
+  "https://github.com/nprati01/nik-portfolio-frontend/main/src/assets/NicolePrati-FullStackDeveloper.pdf";
 
   function Resume() {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-// default width is 1200px, but this hook sets the width of the resume to be the inner width of whatever screen the user is using
+
     setWidth(window.innerWidth);
   }, []);
 
   return (
-      <Container fluid className="resume-section">
-          <Button
-            variant="primary"
+      <section fluid className="resume-section">
+          <button
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
+            style={{ maxWidth: "250px" }}>
             &nbsp;Download Resume
-          </Button>
-        <Row className="resume">
-{*/ this component takes the link provided above and renders it on your page /*}
+          </button>
+        <div className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-  {* /if width is greater than 786px, scale by 1.7x if not, 0.6x /*}
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
-        </Row>
-      </Container>
+        </div>
+      </section>
   );
 }
 export default Resume;

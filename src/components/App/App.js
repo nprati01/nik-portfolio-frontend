@@ -6,6 +6,7 @@ import About from "../About"
 import Projects from "../Projects"
 import Home from "../Home"
 import Skills from "../Skills"
+// import Resume from '../Resume';
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <About URL={URL}/>
       <Projects URL={URL} />
       <Skills />
+      {/* <Resume /> */}
 
 
 
